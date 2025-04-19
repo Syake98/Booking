@@ -1,5 +1,5 @@
 export const URLS = {
-	API: 'http://localhost:5000/api',
+	API: 'http://194.87.86.105:5000/api',
 	COMMENTS: '/comments',
 	BOOKINGS: '/bookings',
 	LOGIN: '/login',
