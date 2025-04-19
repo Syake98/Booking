@@ -1,0 +1,53 @@
+.comment {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	padding: 4px;
+	border-radius: 8px;
+	background-color: PapayaWhip;
+	border: 1px solid SandyBrown;
+	gap: 4px;
+}
+
+.commentHeader {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.commentContent {
+	display: flex;
+	padding: 4px;
+	gap: 8px;
+}
+
+.commentEdit {
+	display: flex;
+	justify-content: flex-end;
+	padding: 0 4px 0 0;
+	gap: 8px;
+}
+
+.commentEdit svg {
+	cursor: pointer;
+
+	&:hover {
+		transition: color 0.2s ease-in-out;
+		color: SandyBrown;
+	}
+}
+
+.commentText {
+	padding: 4px;
+	font-size: 1rem;
+	word-wrap: break-word;
+}
+
+.commentTextarea {
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	font-size: 1rem;
+	font-family: inherit;
+	resize: none;
+}

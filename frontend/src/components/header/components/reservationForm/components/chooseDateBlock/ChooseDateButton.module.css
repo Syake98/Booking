@@ -1,0 +1,38 @@
+.dateBlock {
+	display: flex;
+	flex: 2 0 0;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	border-radius: 50%;
+	height: 100%;
+	cursor: pointer;
+	line-height: 1.3;
+
+	&:hover,
+	&:hover input {
+		transition: color 0.2s ease-in-out;
+		color: SandyBrown;
+	}
+}
+
+.dateLabel {
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.datePicker {
+	flex: 1;
+	text-align: center;
+	border: none;
+	background-color: inherit;
+	font-size: inherit;
+	cursor: pointer;
+
+	&:focus,
+	&:focus-visible {
+		outline: none;
+	}
+}

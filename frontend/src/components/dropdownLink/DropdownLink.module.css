@@ -1,0 +1,17 @@
+.dropdownLink,
+.dropdownButton {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	font: inherit;
+	padding: 0;
+}
+
+.dropdownLink:hover,
+.dropdownButton:hover {
+	transition: color 0.2s ease-in-out;
+	color: SandyBrown;
+}

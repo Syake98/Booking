@@ -1,0 +1,38 @@
+.roomImagesBlock {
+	flex: 1;
+	display: flex;
+	position: relative;
+	width: 100%;
+	height: 50vh;
+	border: 1px solid #ccc;
+	border-radius: 16px;
+	box-shadow: 0 0 8px #0004;
+	overflow: hidden;
+}
+
+.changeImgButton {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	opacity: 0.5;
+	cursor: pointer;
+
+	&:hover {
+		color: SandyBrown;
+		opacity: 1;
+		transition: 0.25s;
+	}
+}
+
+.changeImgButton:last-child {
+	right: 10px;
+	left: auto;
+}
+
+.roomImg {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center center;
+}

@@ -1,0 +1,63 @@
+.roomDescription {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 40%;
+	padding: 20px;
+	cursor: pointer;
+}
+
+.roomCardFooter {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 4px;
+}
+
+.roomPrice {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	width: 100%;
+	text-align: left;
+	font-size: 0.9rem;
+	gap: 4px;
+}
+
+.dateBlock {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+}
+
+.datePicker {
+	padding: 4px 0;
+	border: none;
+	color: inherit;
+	background-color: inherit;
+	font-size: inherit;
+	cursor: pointer;
+
+	&:hover:not(:disabled),
+	&:focus-visible:not(:disabled) {
+		transition: color 0.2s ease-in-out;
+		color: SandyBrown;
+		outline: none;
+	}
+}
+
+.changeBooking {
+	display: flex;
+	padding-left: 16px;
+	gap: 8px;
+
+	:hover {
+		transition: color 0.2s ease-in-out;
+		color: SandyBrown;
+	}
+}
+
+.disabledCheck[disabled] {
+	cursor: not-allowed;
+	color: silver;
+}

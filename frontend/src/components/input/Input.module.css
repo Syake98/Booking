@@ -1,0 +1,47 @@
+.inputBlock {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 4px;
+}
+
+.inputLabel {
+	display: flex;
+	height: 100%;
+	cursor: pointer;
+	padding: 0 10px;
+
+	&:hover {
+		transition: color 0.2s ease-in-out;
+		color: SandyBrown;
+	}
+}
+
+.inputLabel:hover:not(:disabled) {
+	transition: color 0.2s ease-in-out;
+	color: SandyBrown;
+}
+
+.input {
+	display: flex;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	border: none;
+	border-radius: 5px;
+	background-color: transparent;
+	cursor: pointer;
+	font-size: 1rem;
+	max-width: 50px;
+
+	&:focus {
+		border: 1px solid SandyBrown;
+		background-color: PeachPuff;
+		outline: none;
+	}
+
+	&:disabled {
+		color: #555;
+	}
+}

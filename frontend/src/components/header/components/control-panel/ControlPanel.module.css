@@ -1,0 +1,21 @@
+.controlPanelBlock {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	gap: 10px;
+	cursor: pointer;
+}
+
+.controlPanelSwg {
+	display: block;
+
+	&:hover {
+		transition: color 0.2s ease-in-out;
+		color: SandyBrown;
+	}
+
+	&:active {
+		scale: 0.9;
+	}
+}

@@ -1,0 +1,101 @@
+.roomComments {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	margin: 2rem auto;
+	padding: 0 0 2rem 0;
+	gap: 1rem;
+}
+
+.roomAddComment {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	gap: 1rem;
+}
+
+.commentText {
+	display: flex;
+	width: 100%;
+	padding: 0.5rem;
+	resize: none;
+	font-size: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+
+	&:focus {
+		outline: none;
+		border: 1px solid SandyBrown;
+	}
+}
+
+.ratingAndSend {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: rem;
+}
+
+.rating {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 10px;
+	gap: 4px;
+}
+
+.ratingLabel {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	padding: 0 10px;
+	cursor: pointer;
+
+	&:hover {
+		transition: color 0.2s ease-in-out;
+		color: SandyBrown;
+	}
+}
+
+.ratingInput {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	border: none;
+	border-radius: 5px;
+	background-color: transparent;
+	cursor: pointer;
+	font-size: 1rem;
+
+	&:focus {
+		border: 1px solid SandyBrown;
+		background-color: PeachPuff;
+		outline: none;
+	}
+}
+
+.commentSendButton {
+	display: flex;
+	width: 160px;
+	margin: 0.5rem;
+	font-size: 0.9rem;
+}
+
+.roomCommentsBlock {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	gap: 1rem;
+}

@@ -1,0 +1,19 @@
+.roomDescription {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 40%;
+	padding: 20px;
+	cursor: pointer;
+}
+
+.roomCardFooter {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.roomPrice {
+	font-size: 0.9rem;
+}
