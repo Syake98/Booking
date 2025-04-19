@@ -1,0 +1,27 @@
+.inputBlock {
+	position: relative;
+	width: 100%;
+}
+
+.inputLabel {
+	display: block;
+	text-align: center;
+	padding: 8px;
+	color: red;
+}
+
+.input {
+	width: 100%;
+	height: 40px;
+	margin: 0 0 10px 0;
+	padding: 0 10px;
+	font-size: 1.1rem;
+	border: 1px solid SandyBrown;
+	border-radius: 25px;
+	background-color: Cornsilk;
+
+	&:focus {
+		outline: none;
+		border-color: SaddleBrown;
+	}
+}

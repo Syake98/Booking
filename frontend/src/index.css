@@ -1,0 +1,34 @@
+@import './fonts/fonts.css';
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+	background-color: rgb(255, 251, 242);
+}
+
+svg {
+	flex-shrink: 0;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+	font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #fff;
+}
+
+code {
+	font-family: 'Rubik', source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

@@ -1,0 +1,11 @@
+.roomBlock {
+	position: absolute;
+	margin: 5rem;
+	gap: 16px;
+}
+
+.roomInfoBlock {
+	display: flex;
+	width: 100%;
+	gap: 16px;
+}

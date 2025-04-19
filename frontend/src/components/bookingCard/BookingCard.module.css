@@ -1,0 +1,106 @@
+.bookingHeader {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	gap: 4px;
+}
+
+.bookingHeader span,
+.bookingInfoBlock span {
+	font-size: 0.9rem;
+	color: #555;
+}
+.roomInfo {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.roomInfo h3 {
+	font-size: 1.25rem;
+	margin: 0;
+}
+
+.roomMainImage {
+	display: flex;
+	flex: 1;
+	justify-content: flex-end;
+	overflow: hidden;
+	border-radius: 8px;
+}
+
+.roomMainImage img {
+	max-width: 100%;
+	max-height: 200px;
+	object-fit: cover;
+	border-radius: 8px;
+}
+
+.bookingInfoBlock {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 0 20px;
+	gap: 8px;
+}
+
+.bookingDates {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	font-size: 0.9rem;
+	color: #555;
+}
+
+.dateBlock {
+	display: flex;
+	flex-direction: column;
+	padding: 4px 0;
+}
+
+.datePicker {
+	padding: 4px 0;
+	border: none;
+	color: inherit;
+	background-color: inherit;
+	font-size: inherit;
+	cursor: pointer;
+
+	&:hover:not(:disabled),
+	&:focus-visible:not(:disabled) {
+		transition: color 0.2s ease-in-out;
+		color: SandyBrown;
+		outline: none;
+	}
+}
+
+.changeBooking {
+	display: flex;
+	color: #000;
+	gap: 8px;
+
+	:hover {
+		transition: color 0.2s ease-in-out;
+		color: SandyBrown;
+	}
+}
+
+.bookingPrice {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.bookingPrice div {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.disabledCheck[disabled] {
+	cursor: not-allowed;
+	color: silver;
+}

@@ -1,0 +1,45 @@
+.authAndRegBlock {
+	margin: 5rem;
+}
+
+.authAndRegTitle {
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.authAndRegForm {
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+}
+
+.authAndRegLink {
+	display: block;
+	padding: 5px;
+	font-size: 1.1rem;
+	gap: 20px;
+	cursor: pointer;
+
+	&:hover {
+		transition: color 0.2s ease-in-out;
+		color: SandyBrown;
+	}
+
+	&:active {
+		scale: 0.9;
+	}
+}
+
+& .loader {
+	animation: rotate 0.5s linear infinite;
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}

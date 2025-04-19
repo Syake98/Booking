@@ -1,0 +1,61 @@
+.allBookings {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.bookingTitle {
+	margin: 20px 0 0 0;
+	padding: 4px;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.userBookingsBlock {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: min-content;
+	align-items: stretch;
+	justify-content: flex-start;
+	justify-items: center;
+
+	min-height: 100vh;
+	margin: 0 auto;
+	padding: 32px;
+	gap: 16px;
+}
+
+@media screen and (max-width: 938px) {
+	.userBookingsBlock {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.userBookingsBlock {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+.noBookings {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: calc(100vh / 2);
+	font-size: 1.1rem;
+	gap: 1rem;
+}
+
+.roomCardBlock {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 400px;
+	height: 250px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 0 0 8px #0004;
+}

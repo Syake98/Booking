@@ -1,0 +1,11 @@
+.roomCardBlock {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 400px;
+	height: 400px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 0 0 8px #0004;
+	overflow: hidden;
+}

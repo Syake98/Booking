@@ -1,0 +1,13 @@
+.headerBlock {
+	display: flex;
+	align-items: center;
+	height: 100px;
+	box-shadow: 0 0 8px #0004;
+	z-index: 10;
+}
+
+.header {
+	flex-direction: row;
+	justify-content: center;
+	gap: 32px;
+}

@@ -1,0 +1,29 @@
+.roomHeader {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 4px 0;
+	font-size: 1.25rem;
+	gap: 10px;
+}
+
+.roomName {
+	font-size: 1.25rem;
+	margin: 0;
+	padding: auto;
+}
+
+.roomFeatures {
+	display: flex;
+	flex-direction: row;
+	font-size: 0.9rem;
+	gap: 5px;
+}
+
+.roomFeature {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+}
