@@ -14,10 +14,10 @@ app.use(express.static(path.resolve('..', 'frontend', 'build')));
 app.use(express.json());
 app.use(cookieParser());
 app.use(
-	cors({
+	cors(/* {
 		credentials: true,
 		origin: 'http://localhost:3000',
-	}),
+	} */),
 );
 app.use('/api', router);
 
